@@ -31,6 +31,7 @@ jobs:
         - { os: windows-latest, ruby: mswin, ignore-pkg-error: true }
         - { os: ubuntu-20.04,   ruby: jruby }
         - { os: ubuntu-20.04,   ruby: jruby-head, ignore-pkg-error: true }
+        - { os: ubuntu-20.04,   ruby: truffleruby-head }
         exclude:
         - { os: windows-latest, ruby: debug }
 
