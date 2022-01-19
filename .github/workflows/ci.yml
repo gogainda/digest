@@ -20,7 +20,7 @@ jobs:
         - '3.0'
         include:
 
-        - { os: ubuntu-20.04,   ruby: truffleruby-head }
+        - { os: ubuntu-20.04,   ruby: truffleruby }
 
 
     steps:
